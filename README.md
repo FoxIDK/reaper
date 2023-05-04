@@ -25,9 +25,9 @@ _To use the shodan or phone modules, you must first configure the JSON in `/var/
 
 Your contributions push the boundaries of whats possible and it's greatly appreciated.
 <br>
-<a href="https://github.com/1T57H3F0X/reaper/graphs/contributors">
+<a href="https://github.com/FoxIDK/reaper/graphs/contributors">
 <p align="center">
-  <img src="https://contrib.rocks/image?repo=1T57H3F0X/reaper" />
+  <img src="https://contrib.rocks/image?repo=FoxIDK/reaper" />
   </p>
 </a>
 
