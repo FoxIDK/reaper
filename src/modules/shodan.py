@@ -1,9 +1,9 @@
 # Imports.
-import shodan as shodan
-import os
-import sys
-import json
-import requests
+import shodan as shodan # Shodan.
+import os # Operating System functions.
+import sys # System stuff.
+import json # Used for handling JSON data.
+import requests # Making requests.
 from colorama import Fore # For text colour.
 
 # Pre-run.
@@ -43,10 +43,10 @@ def run_shodan():
     host_ip = input(f"\n{print_question} IP: ")
     host = api.host(f'{host_ip}')
     # Print information from API.
-    print(f"{print_prompt}","ISP: {}".format(host.get('isp', 'n/a'))) # Get ISP.
-    print(f"{print_prompt}","Organization: {}".format(host.get('org', 'n/a'))) # Get Org
+    print(f"{print_prompt}","ISP: {}".format(host.get('isp', 'n/a')))
+    print(f"{print_prompt}","Organization: {}".format(host.get('org', 'n/a')))
     print(f"{print_prompt}","Location: {}, {}".format(host.get('country_name', 'n/a'), host.get('city', 'n/a')))
-    print(f"{print_prompt}","Long/Lat: {} | {}".format(host.get('longitude','n/a'), host.get('latitude','n/a'))) # Get Lat/Long.
+    print(f"{print_prompt}","Long/Lat: {} | {}".format(host.get('longitude','n/a'), host.get('latitude','n/a')))
     print("\nReserve API:")    
     # Reserve API and base.
     reserve_direct_url = ("http://ip-api.com/")
@@ -72,6 +72,7 @@ def run_shodan():
         else:
             print (f'{print_notice} Heartbleed: {Fore.RED}UNSECURE / DATA NOT AVAILABLE{print_text}\n')
     os.system("rm report.log")
+
 # Run Shodan module.
 if __name__ == '__main__':
     run_shodan()

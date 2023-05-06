@@ -2,7 +2,7 @@
 
 ![Logo](https://media.discordapp.net/attachments/1053895661629751397/1086442910129606676/reaper.png?width=425&height=425)
 
-## 🚀 About Reaper
+## 🚀 About Reaper | [![Codacy Badge](https://app.codacy.com/project/badge/Grade/d44bc9b8cbeb41ff93bd744f76854571)](https://app.codacy.com/gh/FoxIDK/reaper/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 
 Reaper is a powerful tool written in Python3, designed with OSINT (Open Source Intelligence) in mind. It leverages APIs and other public means to automatically seek and catalog information from across the internet and dark web. With its advanced data-scraping capabilities, reaper can quickly gather a wide range of information, including leaked GitHub commit data, phone numbers, DNS records, unique who-is requests, Shodan data, and even (soon) banking details. This makes reaper an essential tool for security researchers, investigators, and other professionals who need to quickly and efficiently gather intelligence for their work.
 

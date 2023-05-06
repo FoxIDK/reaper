@@ -1,8 +1,8 @@
 # Imports.
-import os
-import sys
-import json
-import requests
+import os # Operating System functions.
+import sys # System stuff.
+import json # Used for handling JSON data.
+import requests # Making requests.
 from colorama import Fore # For text colour.
 
 # Pre-run.

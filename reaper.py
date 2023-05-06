@@ -1,9 +1,6 @@
 # Imports.
 import sys # System stuff.
 import os # Operating System functions.
-import time # Time.
-import requests # For making requests.
-import json # Make those sweet JSON fil
 import argparse # For adding arguments.
 from colorama import Fore # For text colour.
 
@@ -44,39 +41,39 @@ if args['github']: # Runs the keygen program.
     while True:
         try:
             github.github()
-            os._exit(0) # Attempts to exit.
+            os._exit(0) 
         except:
             print(f"{print_prompt} {print_failed}: Github module failed to run here!\n")
-            os._exit(0) # Attempts to exit.
+            os._exit(0) 
 
 if args['phone']: # Runs the keygen program.
     while True:
         try:
             phone.phone()
-            os._exit(0) # Attempts to exit.
+            os._exit(0) 
         except:
             print(f"{print_prompt} {print_failed}: Phone module failed to run here!\n")
-            os._exit(0) # Attempts to exit.
+            os._exit(0) 
 
 if args['shodan']: # Runs the keygen program.
     while True:
         try:
             shodan.run_shodan()
-            os._exit(0) # Attempts to exit.
+            os._exit(0) 
         except:
             print(f"{print_prompt} {print_failed}: Shodan module failed to run here!\n")
-            os._exit(0) # Attempts to exit.
+            os._exit(0) 
 
 # Program.
 if __name__ == '__main__':
     try:
         print("Did you use the argument correctly?")
     except KeyboardInterrupt:
-        print(f"\n{print_exited} {print_notice} {print_successfully}\n") # States the script ended.
-        print(f'{print_notice} You interrupted the program.\n') # States it was interrupted.
+        print(f"\n{print_exited} {print_notice} {print_successfully}\n")
+        print(f'{print_notice} You interrupted the program.\n')
         try:
-            sys.exit(0) # Attempts to exit.
+            sys.exit(0) 
         except SystemExit:
-            os._exit(0) # Attempts to exit.
+            os._exit(0) 
     except FileNotFoundError as not_found:
         print("This file is missing:" + not_found.filename)

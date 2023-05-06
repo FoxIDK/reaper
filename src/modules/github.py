@@ -1,10 +1,9 @@
 # Imports.
-import sys
-import time
-import json
-import os
-import requests
-from colorama import Fore
+import sys # System stuff.
+import json # Used for handling JSON data.
+import os # Operating System functions.
+import requests # Making requests.
+from colorama import Fore # For text colour.
 
 # Pre-run.
 os.system("clear")
@@ -29,9 +28,9 @@ print_command = (f"\n[{Fore.YELLOW}>_{Fore.WHITE}]: ") # Always asks for a comma
 # Program.
 def github():
     try:
-        username = input(f"\n{print_question} GitHub username: ") # Just asks you to give the username from GitHub.
+        username = input(f"\n{print_question} GitHub username: ")
         print(f"\n{print_notice} Checking: {username} for repos.\n")
-        r = requests.get(f'https://api.github.com/users/{username}/repos') # This does cause rate limiting, but we've found it works well for a handful of 'one-off checks' pulling from the api site.
+        r = requests.get(f'https://api.github.com/users/{username}/repos')
 
         data = json.loads( r.text )
         for i in range(len(data)):
@@ -42,7 +41,7 @@ def github():
         print(f"\n{print_notice} Checking: {username} for details.\n")
         for i in range(len(data)):
             repo = data[i]['full_name']
-            r2 = requests.get(f'https://api.github.com/repos/{repo}/commits') # This does cause rate limiting, but we've found it works well for a handful of 'one-off checks' pulling from the api site.
+            r2 = requests.get(f'https://api.github.com/repos/{repo}/commits')
             data2 = json.loads( r2.text )
             try:
                 for j in range(len(data2)):
@@ -51,14 +50,14 @@ def github():
                     if email in emails:
                         pass
                     else:
-                        emails.append(email) # Appends emails.
-                        print(f"{print_prompt} • User: {name} \n{print_alert} • Email: {email}") # Prints the Username followed by Email in a clean bullet point format.
+                        emails.append(email)
+                        print(f"{print_prompt} • User: {name} \n{print_alert} • Email: {email}")
             except Exception:
                 print("Failed to get repo commits | potential rate limiting - try again later.")
 # Error handling.
     except KeyboardInterrupt:
-        print(f"\n{print_exited} {print_notice} {print_successfully}\n") # States the script ended.
-        print(f'{print_notice} You interrupted the program.\n') # States it was interrupted.
+        print(f"\n{print_exited} {print_notice} {print_successfully}\n")
+        print(f'{print_notice} You interrupted the program.\n')
         try:
             sys.exit(0)
         except SystemExit:
