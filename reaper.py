@@ -1,8 +1,8 @@
 # Imports.
-import sys # System stuff.
-import os # Operating System functions.
-import argparse # For adding arguments.
-from colorama import Fore # For text colour.
+import sys
+import os
+import argparse
+from colorama import Fore
 
 # Modules.
 import src.modules.github as github

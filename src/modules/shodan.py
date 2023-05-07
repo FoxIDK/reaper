@@ -1,10 +1,10 @@
 # Imports.
-import shodan as shodan # Shodan.
-import os # Operating System functions.
-import sys # System stuff.
-import json # Used for handling JSON data.
-import requests # Making requests.
-from colorama import Fore # For text colour.
+import shodan as shodan
+import os
+import sys
+import json
+import requests
+from colorama import Fore
 
 # Pre-run.
 os.system("clear")

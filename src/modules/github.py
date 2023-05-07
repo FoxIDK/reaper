@@ -1,9 +1,9 @@
 # Imports.
-import sys # System stuff.
-import json # Used for handling JSON data.
-import os # Operating System functions.
-import requests # Making requests.
-from colorama import Fore # For text colour.
+import sys
+import json
+import os
+import requests
+from colorama import Fore
 
 # Pre-run.
 os.system("clear")
