@@ -8,8 +8,7 @@ Reaper is a powerful tool written in Python3, designed with OSINT (Open Source I
 
 Using the request-module in Python, reaper automates the process of pulling data from various sources, and with its intuitive very-standard command line interface and powerful capabilities, it simplifies the process of scanning, collecting, analyzing, and storing large amounts of data it mines. Making it an indispensable tool for any OSINT project.
 
-Whether you're a cybersecurity analyst, law enforcement officer, or private investigator, reaper can help you find the information you need to stay ahead of the curve. With its more advanced features being worked on and ease of use arguments in the command line, it's the perfect tool for anyone looking to harness the power of OSINT for their work.
- So why wait? Try reaper today and start reaping the benefits of better intelligence gathering!
+Whether you're a cybersecurity analyst, law enforcement officer, or private investigator, reaper can help you find the information you need to stay ahead of the curve. With its more advanced features being worked on and ease of use arguments in the command line, it's the perfect tool for anyone looking to harness the power of OSINT for their work. So why wait? Try reaper today and start reaping the benefits of better intelligence gathering!
 
 ## ✨ Features
 
@@ -24,6 +23,7 @@ _To use the shodan or phone modules, you must first configure the JSON in `/var/
 ## 🕸 Contributors
 
 Your contributions push the boundaries of whats possible and it's greatly appreciated.
+
 <br>
 <a href="https://github.com/FoxIDK/reaper/graphs/contributors">
 <p align="center">
@@ -31,44 +31,44 @@ Your contributions push the boundaries of whats possible and it's greatly apprec
   </p>
 </a>
 
-## 📱 Support
+## 📱 Connect with Us
 
-If you need to reach out for support, you can join my Discord [*here*](https://discord.gg/H4CjUqHm3Q) and open a ticket.
+If you share my passion for technology, space, AI, cybersecurity, citizen-led initiatives and STEM come join a thriving community on Discord. Feel free to reach out for support, collaboration, or just to chat about the wonders of the universe in which we share!
+
+👉 [Join Our Community on Discord](https://discord.foxlabs.cloud) 👈
 
 ## ⚖ License
 
-[Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+[Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
 Under the following conditions, and appendix:
 
-- You are free to:
+**You are free to**:
 
-Share — copy and redistribute the material in any medium or format.
+ - Share — copy and redistribute the material in any medium or format.
 
-Adapt — remix, transform, and build upon the material.
+*The licensor cannot revoke these freedoms as long as you follow the license terms including the appendix.*
 
-The licensor cannot revoke these freedoms as long as you follow the license terms including appendix.
+**Under the following terms**:
 
-- Under the following terms:
+- Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor [here](https://www.github.com/FoxIDK/) endorses you or your use.
 
-Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor [here](https://www.github.com/FoxIDK/) endorses you or your use.
+- NonCommercial — You may not use the material for commercial purposes. If you intend to do so you must make successful contact with the origin licensor [here](https://www.github.com/FoxIDK/) for permissions.
 
-NonCommercial — You may not use the material for commercial purposes. If you intend to do so you must make sucessful contact with the origin licensor [here](https://www.github.com/FoxIDK/) for permissions.
+- NoDerivatives — If you remix, transform, or build upon the material, you may not distribute the modified material.
 
-ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
+- No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
 
-No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
-
-- Notices:
+**Notices**:
 
 You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation.
 
 No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.
 
-(_"we" in all cases refers to myself, Fox_)
+(_"we" in all cases refers to FoxLabs and the team under the management of FoxIDK_)
 
 ## 🖋 Appendix
 
-If the origin licensor [here](https://www.github.com/FoxIDK/) doesn't agree with your method of providing attribution, or feels you've infinged on the license you must revise it within a reasonable period or risk legal action being taken against you.
+If the origin licensor [here](https://www.github.com/FoxIDK/) doesn't agree with your method of providing attribution or feels you've infringed on the license you must revise it within a reasonable period or risk legal action being taken against you.
 
 All variations, forks, etc built off of this software and license must adhear to this license too unless otherwise specified by contacting the licensor for a unique license for your intended use.
